@@ -1,8 +1,13 @@
+Link to CodePen:     
     1. What is Semantic HTML? 
-    2. What is HTML used for? 
+        Semantic Html describes the content
+    2. What is HTML used for?
+        Html is used to build the structure of a website.
     3. What is an attribute and where do we put it? 
     4. What is the h1 tag used for? How many times should I use it on a page?
     5. Name two tags that have required attributes
+        The image tag, <img>, requires the source, src="", attribute.
+
     6. What do we put in the head of our HTML document? 
     7. What is an id? 
     8. What elements can I add an id to? 
