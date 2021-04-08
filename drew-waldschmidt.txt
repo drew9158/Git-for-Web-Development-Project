@@ -1,4 +1,4 @@
-Link to CodePen: https://codepen.io/Drewwald/pen/XWpaBjO?editors=1100
+Link to CodePen: https://codepen.io/Drewwald/pen/XWpaBjO
     1. What is Semantic HTML? 
         Semantic Html tags describe the content they contain in addition to building structure.
     2. What is HTML used for?
