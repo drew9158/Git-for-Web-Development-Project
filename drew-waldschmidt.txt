@@ -1,46 +1,91 @@
-Link to CodePen:     
+Link to CodePen: https://codepen.io/Drewwald/pen/XWpaBjO?editors=1100
     1. What is Semantic HTML? 
-        Semantic Html describes the content
+        Semantic Html tags describe the content they contain in addition to building structure.
     2. What is HTML used for?
         Html is used to build the structure of a website.
-    3. What is an attribute and where do we put it? 
+    3. What is an attribute and where do we put it?
+        An attribute is a modifier for an element. It is put in the opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+        The h1 tag is used for the main title of a page. It should be used only once per page.
     5. Name two tags that have required attributes
-        The image tag, <img>, requires the source, src="", attribute.
-
+        The image tag, <img>, requires the src attribute.
+        The anchor tag, <a>, requires the href attribute.
     6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
+        The head contains metadata such as: the page title, links to scripts and stylesheets, and font sheets.
+    7. What is an id?
+        An id is an identifying attribute that can be used only once per page.
+    8. What elements can I add an id to?
+        An id can be added to the tag of any element.
     9. How many times can I use the same id on a page? 
-    10. What is a class? 
+        Each id can be used only once per page.
+    10. What is a class?
+        A class is an identifying element that can be used many times per page.
     11. What elements can I add a class to? 
+         An id can be added to the tag of any element.
     12. How many times can I use the same class on a page? 
+        It can be used an unlimited amount times.
     13. How do I get my link to open in a new tab?
+        When added to an anchor tag, the attribute 'href="_blank"' will cause the link to open in a new tab.
     14. What is the alt attribute in the image tag used for? 
+        The alt attribute contains a title describing the image for the case it cannot be loaded.
     15. How do I reference an id?
+        It is referenced with the # symbol.
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+        A section is a semantic element meant to contain a group of related content like a chapter.
+        A div is a plain division that does not describe its content.
+    17. What is CSS used for?
+        CSS is used to add style to a webpage.
     18. How to we select an element? Example - every h2 on the page
+        To select all examples of a certain element, you write the name of that element. Example - h2 { }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class can be used on as many elements as desired per page, while an id may only be used on per page.
+        A class is useful for styling because it can be used on many elements.
+        An id is useful to mark a location on a page for an anchor tag to link to because there will only be one location for that id.
     20. How do we select classes in CSS?
+        They are selecting with a period.
     21. How do we select a p element with a single class of “human””?
+        This could be selected with "p.human { }".
     22. What is a parent child selector? When would this be useful? 
+        A parent child selector selects an element only if it is inside the specified parent element.
+        Example: div p {} - only selects paragraph elements inside of a div.
+        This is useful if you want to select all examples of an element within a certain parent element and leave elements outside untouched.
     23. How do you select all links within a div with the class of sidebar?
+        This could be selected with "div.sidebar a { }"
     24. What is a pseudo selector?
+        It is a selector that only selects an element in specific situations. Example :hover selects an element when the user moves their cursor over the element.
     25. What do we use the change the spacing between lines?
+        This can be selected with "line-spacing: ;".
     26. What do we use to change the spacing between letters?
+        This can be selected with "letter-spacing: ;".
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        This can be selected with "text-transform: ;".
     28. How do I add a 1px border around my div that is dotted and black?
+        The code: "div {border: 1px dotted black;}" can be used.
     29. How do I select everything on the page? 
+        A universal selector "* { }" can be used.
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+        Like so: "/* Comment written here */"
+    31. How do I find out what file I am in, when I am using the command line?
+        The print working directory, pwd, command can be used.
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+        The list command, ls, is used.
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        The remove command, rm, will delete a file. This must be used with caution because there is no method to reverse this command. 
+    34. Why should I use version control?
+        Using version control allows a team of developers to smoothly merge their coding contributions and provides a method to walk back a release in the case a version is lost or released prematurely. 
     35. How often should I commit to github?
+        A commit is good practice anytime a feature is finished or every 20 minutes.
     36. What is the command we would use to push our repo up to github? 
+        The command: "git push -u origin branch-name" is used.
     37. Walk me through Lambda's git flow. 
-
+        1. A repo is cloned using git clone.
+        2. The user moves to the cloned repo using cd.
+        3. A new branch is creating using git checkout -b.
+        4. Files can now be edited.
+        5. Changes are prepped using git add .
+        6. A message for the commit is added using git commit -m "".
+        7. The commit is pushed to the remote repo using git push -u origin.
+        8. A pull request is created for future commits.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
